@@ -62,7 +62,7 @@ class FichaAmbulatorial(QMainWindow):
 
     def botao3_click(self):
             conteudo = self.textBoxNome.text()
-            self.labelApareceTexto(conteudo)
+            self.labelMostra.setText('Mostra: ' + conteudo)
 
     def botao2_click(self):
         print('Enviado para o consultorio!')
