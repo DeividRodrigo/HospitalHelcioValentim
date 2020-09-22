@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowLoginRecepcao</class>
+ <widget class="QMainWindow" name="MainWindowLoginRecepcao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>605</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login da Recepção</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(192, 255, 218);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frameLoginRecepcao">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>591</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="labelSenhaRecepcao">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>221</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Senha:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditSenhaRecepcao">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>231</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 127);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelLoginRecepcao">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>171</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Login:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelTituloRecepcao">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>71</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Castellar</family>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Recepção</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelLogo">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>41</y>
+       <width>91</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>logoHospital.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditLoginRecepcao">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>180</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 127);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelLogo_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>50</y>
+       <width>91</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Formularios/logoHospital.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtoneEntrarRecepcao">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>280</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(57, 175, 48);
+color: rgb(85, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>ENTRAR</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
