@@ -1,4 +1,0 @@
-#from datetime import datetime
-#print('FICHA AMBULATORIAL')
-#data = datetime.now().strftime('%d/%m/%Y') #data atual
-#hora = datetime.now().strftime('%H:%M') #hora atual
